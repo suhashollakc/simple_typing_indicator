@@ -4,12 +4,6 @@ A lightweight Flutter widget that displays an animated typing indicator with thr
 
 ![Simple Typing Indicator Demo](assets/screenshot.png)
 
-## Demo
-
-https://github.com/your-username/simple_typing_indicator/assets/demo.mp4
-
-[Watch Demo Video](assets/demo.mp4)
-
 ## Table of Contents
 
 - [Overview](#overview)
