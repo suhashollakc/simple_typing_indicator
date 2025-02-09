@@ -1,5 +1,5 @@
 name: simple_typing_indicator
-description: "Simple Typing Indicator** is a lightweight, customizable Flutter widget that displays a pulsing "typing..." indicator using animated dots."
+description: "Simple Typing Indicator is a lightweight, customizable Flutter widget that displays a pulsing indicator using animated dots."
 version: 0.0.1
 homepage: https://github.com/suhas-holla/simple_typing_indicator
 

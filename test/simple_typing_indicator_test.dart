@@ -6,14 +6,14 @@ void main() {
   testWidgets('SimpleTypingIndicator builds three dots', (WidgetTester tester) async {
     // Build the widget inside a MaterialApp.
     await tester.pumpWidget(
-      MaterialApp(
+      const MaterialApp(
         home: Scaffold(
           body: Center(
             child: SimpleTypingIndicator(
               dotColor: Colors.blue,
               dotSize: 10.0,
               spacing: 5.0,
-              duration: const Duration(milliseconds: 1000),
+              duration: Duration(milliseconds: 1000),
               speed: 1.0,
             ),
           ),
@@ -36,14 +36,13 @@ void main() {
 
   testWidgets('SimpleTypingIndicator animates over time with speed multiplier', (WidgetTester tester) async {
     const speed = 2.0; // Animation runs twice as fast
-    const baseDuration = Duration(milliseconds: 1000);
     
     await tester.pumpWidget(
-      MaterialApp(
+      const MaterialApp(
         home: Scaffold(
           body: Center(
             child: SimpleTypingIndicator(
-              duration: baseDuration,
+              duration: Duration(milliseconds: 1000),
               speed: speed,
             ),
           ),
