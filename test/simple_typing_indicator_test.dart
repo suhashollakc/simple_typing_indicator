@@ -3,7 +3,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:simple_typing_indicator/simple_typing_indicator.dart';
 
 void main() {
-  testWidgets('SimpleTypingIndicator builds three dots', (WidgetTester tester) async {
+  testWidgets('SimpleTypingIndicator builds three dots',
+      (WidgetTester tester) async {
     // Build the widget inside a MaterialApp.
     await tester.pumpWidget(
       const MaterialApp(
@@ -34,9 +35,10 @@ void main() {
     expect(dotFinder, findsNWidgets(3));
   });
 
-  testWidgets('SimpleTypingIndicator animates over time with speed multiplier', (WidgetTester tester) async {
+  testWidgets('SimpleTypingIndicator animates over time with speed multiplier',
+      (WidgetTester tester) async {
     const speed = 2.0; // Animation runs twice as fast
-    
+
     await tester.pumpWidget(
       const MaterialApp(
         home: Scaffold(

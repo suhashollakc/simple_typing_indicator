@@ -1,3 +1,24 @@
+/// A simple, lightweight Flutter widget that displays a pulsing "typing..."
+/// indicator using animated dots.
+///
+/// This package provides a minimal API for adding a typing indicator in chat
+/// or messaging applications. It supports customization of dot color, size,
+/// spacing, animation duration, and speed.
+///
+/// Example:
+/// ```dart
+/// SimpleTypingIndicator(
+///   dotColor: Colors.blue,
+///   dotSize: 12.0,
+///   spacing: 6.0,
+///   duration: Duration(milliseconds: 1500),
+///   speed: 1.5,
+/// )
+/// ```
+///
+/// For more information, see the [README](README.md).
+library simple_typing_indicator;
+
 import 'package:flutter/material.dart';
 
 /// A simple, lightweight typing indicator widget that displays three dots
@@ -52,8 +73,7 @@ class SimpleTypingIndicatorState extends State<SimpleTypingIndicator>
 
     // Compute the effective duration based on the speed multiplier.
     final effectiveDuration = Duration(
-      milliseconds:
-          (widget.duration.inMilliseconds / widget.speed).round(),
+      milliseconds: (widget.duration.inMilliseconds / widget.speed).round(),
     );
 
     // Create an AnimationController that repeats indefinitely using the effective duration.

@@ -1,0 +1,16 @@
+name: simple_typing_indicator_example
+description: An example demonstrating how to use the simple_typing_indicator package.
+publish_to: "none" # This ensures the example is not published.
+version: 1.0.0
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  simple_typing_indicator:
+    path: ../  # This points to your package locally
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

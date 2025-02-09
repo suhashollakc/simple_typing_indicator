@@ -1,7 +1,7 @@
 name: simple_typing_indicator
 description: "Simple Typing Indicator is a lightweight, customizable Flutter widget that displays a pulsing indicator using animated dots."
-version: 1.0.3
-homepage: https://github.com/suhas-holla/simple_typing_indicator
+version: 1.0.1
+homepage: https://github.com/suhashollakc/simple_typing_indicator
 
 environment:
   sdk: ^3.5.2
@@ -14,7 +14,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
