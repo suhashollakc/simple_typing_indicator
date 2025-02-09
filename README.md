@@ -1,8 +1,68 @@
 # Simple Typing Indicator
 
-**Simple Typing Indicator** is a lightweight, customizable Flutter widget that displays a pulsing "typing..." indicator using animated dots. Perfect for chat applications or any interface where a minimal "typing..." animation is desired.
+A lightweight Flutter widget that displays an animated typing indicator with three pulsing dots, perfect for chat applications.
 
-> **Note:** This package provides a lean, plug-and-play widget with a minimal API surface. It is optimized for performance and simplicity.
+## Features
+
+- 🎯 Minimal, focused API
+- 🎨 Customizable dot color, size, and spacing
+- ⚡ Performance optimized
+- 📱 Cross-platform support
+- 🔧 Easy integration
+
+## Getting started
+
+Add this to your package's `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  simple_typing_indicator:
+```
+
+## Usage
+
+```dart
+import 'package:simple_typing_indicator/simple_typing_indicator.dart';
+
+// Basic usage
+const SimpleTypingIndicator()
+
+// Customized usage
+const SimpleTypingIndicator(
+  dotColor: Colors.blue,
+  dotSize: 10.0,
+  spacing: 5.0,
+  duration: Duration(milliseconds: 1000),
+  speed: 1.0,
+)
+```
+
+## Additional information
+
+### Parameters
+
+- `dotColor`: The color of the dots (default: `Colors.grey`)
+- `dotSize`: Size of each dot (default: `8.0`)
+- `spacing`: Space between dots (default: `4.0`)
+- `duration`: Base animation duration (default: `1000ms`)
+- `speed`: Animation speed multiplier (default: `1.0`)
+
+### Platform Support
+
+- Android
+- iOS
+- Web
+- macOS
+- Windows
+- Linux
+
+### Contributing
+
+Feel free to file issues and PRs on the GitHub repository. Your contributions are welcome!
+
+### License
+
+MIT License - see the [LICENSE](LICENSE) file for details
 
 ---
 
@@ -71,3 +131,83 @@ dependencies:
     sdk: flutter
   simple_typing_indicator:
     path: ../simple_typing_indicator  # Replace with the version once published, e.g., ^1.0.0
+```
+
+---
+
+## Usage
+
+### Basic Example
+
+```dart
+import 'package:simple_typing_indicator/simple_typing_indicator.dart';
+
+// Basic usage
+const SimpleTypingIndicator()
+```
+
+### Customization Options
+
+```dart
+import 'package:simple_typing_indicator/simple_typing_indicator.dart';
+
+// Customized usage
+const SimpleTypingIndicator(
+  dotColor: Colors.blue,
+  dotSize: 10.0,
+  spacing: 5.0,
+  duration: Duration(milliseconds: 1000),
+  speed: 1.0,
+)
+```
+
+### Advanced Usage
+
+```dart
+import 'package:simple_typing_indicator/simple_typing_indicator.dart';
+
+// Advanced usage
+const SimpleTypingIndicator(
+  dotColor: Colors.green,
+  dotSize: 12.0,
+  spacing: 8.0,
+  duration: Duration(milliseconds: 1500),
+  speed: 1.5,
+)
+```
+
+---
+
+## API Documentation
+
+The API documentation is available in the [API Reference](https://pub.dev/documentation/simple_typing_indicator/latest/simple_typing_indicator/SimpleTypingIndicator-class.html).
+
+---
+
+## Contributing
+
+Feel free to file issues and PRs on the GitHub repository. Your contributions are welcome!
+
+---
+
+## FAQ
+
+### How to customize the animation?
+
+You can customize the animation by adjusting the `dotColor`, `dotSize`, `spacing`, `duration`, and `speed` parameters.
+
+### Can I use this widget in a different project?
+
+Yes, you can use this widget in any Flutter project. Just add the dependency to your `pubspec.yaml` file and import the package.
+
+---
+
+## License
+
+This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Additional Information
+
+For more information, please refer to the [GitHub repository](https://github.com/your-username/simple_typing_indicator).
