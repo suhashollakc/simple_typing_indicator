@@ -79,7 +79,6 @@ MIT License - see the [LICENSE](LICENSE) file for details
   - [Customization Options](#customization-options)
   - [Advanced Usage](#advanced-usage)
 - [API Documentation](#api-documentation)
-- [Demo](#demo)
 - [Contributing](#contributing)
 - [FAQ](#faq)
 - [License](#license)
