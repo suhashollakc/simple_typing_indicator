@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 /// A simple, lightweight Flutter widget that displays a pulsing "typing..."
 /// indicator using animated dots.
 ///
@@ -17,13 +19,6 @@
 /// ```
 ///
 /// For more information, see the [README](README.md).
-library simple_typing_indicator;
-
-import 'package:flutter/material.dart';
-
-/// A simple, lightweight typing indicator widget that displays three dots
-/// pulsing in a staggered fashion. This widget is intended for chat apps or
-/// any interface needing a "typing..." animation.
 class SimpleTypingIndicator extends StatefulWidget {
   /// The color of the dots.
   final Color dotColor;
