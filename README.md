@@ -148,4 +148,4 @@ This package is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Additional Information
 
-For more information, please refer to the [GitHub repository](https://github.com/your-username/simple_typing_indicator).
+For more information, please refer to the [GitHub repository](https://github.com/suhashollakc/simple_typing_indicator).
